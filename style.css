@@ -1,0 +1,211 @@
+body{
+    background-color: #acacac;
+    font-family: "游ゴシック";
+    overflow-x: hidden;
+}
+
+header{
+    border-bottom:black 2px solid;  
+    margin-left: 7%; 
+}
+
+.headerItem{
+    display: flex;
+    margin: 2% 7% 7% 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.sta{
+    border: solid black 3px;
+    padding: 0;
+    margin: 0;
+}
+
+.menubar{
+    padding: 0;
+    margin: 0;
+}
+
+.sta h1{
+    padding: 2px 5px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 25px;
+}
+.menubar h1{
+    padding: 0;
+    margin: 0;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+.Nihonbashi{
+    margin:3% 0 3% 7% ;
+    border: solid black 3px;
+}
+
+.NihonbashiContents1{
+    border: solid black 3px;
+}
+.NihonbashiContents1 img{
+    width: 100%;
+}
+
+.NihonbashiContents2{
+    margin-right:7% ;
+    border: solid black 3px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around
+}
+.images img{
+    width: 40%
+}
+
+.Highlights{
+    border: solid black 1px;
+    margin: 100px 0 100px 7%;
+}
+
+.HighlightsContents{
+    display: flex; 
+    flex-wrap: nowrap;   
+    justify-content: unset;
+}
+
+.HighlightsItem {
+    border: solid black 1px;
+    min-width: 40%;
+    margin: 3%;
+    padding: 0;
+}
+
+.HighlightsItem img{
+    width: 100%;
+}
+
+.Menu{
+    border: solid black 1px;
+    margin: 100px 7%;
+}
+
+.menuContents{
+    display: flex;
+}
+
+.menuContents img{
+    width: 40%;
+    height: 40%;
+}
+
+.menuDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.Information{
+    border: solid black 1px;
+    margin: 100px 7%;
+}
+
+.list{
+    width: 10%;
+    font-size: 17px;
+}
+
+.InformationEx{
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.complement{
+    margin-left: 17%;
+}
+
+.phone,.Email,.Address,.OpeningHours,.Amenities{
+    display: flex;
+    border-bottom: solid black 1px;
+}
+
+.recruit{
+    border: solid black 1px;
+    margin: 10% 7%;
+    padding: 10%;
+    padding: 10%;
+}
+.recruitContents{
+    border: solid black 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.recruitExplain{
+    width: 45%;
+    height: 100%;
+    border: solid black 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.recruit h1{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.recruit h2{
+    font-size: 26px;
+}
+.recruit h3{
+    font-size: 17px;
+}
+.recruit p{
+    font-size: 12px;
+}
+
+.recruit img{
+    width: 45%;
+    height: 100%;
+}
+
+
+footer{
+    border: solid black 3px;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    width: calc(50%); 
+}
+
+.footerItem2{
+    display: flex;
+    flex-direction: column;
+    width: calc(50%); 
+}
+
+.footerItem3{
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* リンクの下線を削除 */
+}
+
+
